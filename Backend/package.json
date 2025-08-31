@@ -16,7 +16,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
-    "build": "react-scripts build"   // if it's a React frontend
+    "build": "react-scripts build"   
   }
 }
 
