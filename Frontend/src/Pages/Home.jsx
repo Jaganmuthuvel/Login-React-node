@@ -14,7 +14,7 @@ const Home = () => {
         setPassword(event.target.value)
     }
     function check() {
-        var functionaxios = axios.get(`http://localhost:3000/login?username=${user}&password=${pass}`)
+        var functionaxios = axios.get(`https://login-react-node-u19p.onrender.com/login?username=${user}&password=${pass}`)
         functionaxios.then(function (data) {
             if (data.data === true) {
                 navigate("/Sucess")
